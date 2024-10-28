@@ -33,3 +33,22 @@
 
 Deze versies komen ook nog wel eens terug bij bijv. TypeScript's `tsconfig.json`: `target: "ES2022"`
 
+## Operators
+
+`&&` is ook heel handig als korte `if`, zoals [hier gezien bij Svelte](https://github.com/sveltejs/svelte/issues/4427):
+
+```svelte
+<input type="text" on:keyup={e=>e.key==='Enter' && action()}/>
+```
+
+## JavaScript engine/runtimes
+
+- Firefox: SpiderMonkey
+- Chrome/Chromium: V8 // JIT branch prediction
+  - Ook door Node.js/Deno gebruikt
+- IE/Edge: Chakra/ChakraCore
+- Safari/WebKit: JavaScriptCore
+  - Ook door bun gebruikt
+
+
+
