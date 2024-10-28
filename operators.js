@@ -30,5 +30,17 @@ let obj2 = { y: 'hoi 2', z: [] };
 let combinedObj = { ...obj1, ...obj2 };
 console.log('combinedObj:', combinedObj);
 
+// e.key === 'enter' && func();
+
+function test(a) {
+    if(a === 'iets') return;
+}
+
+if(e.key === 'enter') {
+    func();
+}
 
 console.log(null && 8);
+
+let val = -0;
+console.log(+!val);
