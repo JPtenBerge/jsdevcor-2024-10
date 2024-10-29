@@ -1,0 +1,37 @@
+<mxfile host="65bd71144e">
+    <diagram id="Eijcxtug0W7nkC9EVhRk" name="Page-1">
+        <mxGraphModel dx="1066" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;b&gt;Server-side JS&lt;/b&gt;&lt;br&gt;- Node.js&lt;br&gt;&amp;nbsp; - Ryan Dahl&lt;br&gt;&amp;nbsp; - 2009&lt;br&gt;&amp;nbsp; - npm - commercial bedrijf - 2019&lt;br&gt;&amp;nbsp; &amp;nbsp; - Microsoft&amp;nbsp; GitHub&lt;br&gt;- Deno&lt;br&gt;&amp;nbsp; - Ryan&lt;br&gt;&amp;nbsp; - 2020&lt;br&gt;&amp;nbsp; - TypeScript&lt;br&gt;&amp;nbsp; - security&lt;br&gt;&amp;nbsp; - performance&lt;br&gt;&amp;nbsp; - module systeem&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; import { iets } from 'https://..../ding.ts';&lt;br&gt;- bun&lt;br&gt;&amp;nbsp; - performance&lt;br&gt;&amp;nbsp; - TypeScript&lt;br&gt;&amp;nbsp; - npm&lt;br&gt;&amp;nbsp; - $50M&lt;br&gt;&amp;nbsp; - ~2021" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="350" width="260" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;b&gt;Webframeworks/libraries&amp;nbsp;(SPA)&lt;/b&gt;&lt;br&gt;- Angular - Google&lt;br&gt;&amp;nbsp; - enterprise Pipes components directives services DI unittesten&lt;br&gt;- React - Meta/facebook&lt;br&gt;&amp;nbsp; - virtual DOM&lt;br&gt;- Vue - Evan You (ex-Google)&lt;br&gt;- Svelte - Rich Harris (inmiddels Vercel)&lt;br&gt;&amp;nbsp; - compiler =&amp;gt; bijna native code&lt;br&gt;- Solid (Ryan Cavaladoblabla)&lt;br&gt;- Qwik - MIsko Hevery (ex-Google) - AngularJS Angular&lt;br&gt;- Lit (Web Components) - Google&lt;br&gt;- Blazor (C#)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="60" width="370" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;b&gt;SSR&lt;/b&gt;&lt;br&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Next.js (React)&lt;br&gt;- Nuxt.js (Vue)&lt;br&gt;- @angular/ssr (Angular) &lt;br&gt;- Blazor (ASP.NET Core)&lt;br&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Qwik (QwikCity)&lt;br&gt;- Solid (SolidStart)&lt;br&gt;- Svelte (SvelteKit)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="270" width="180" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;b&gt;Utility libs&lt;/b&gt;&lt;br&gt;- Datum/tijd: moment, dayjs, date-fns, luxon&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- jQuery 🦷🦷&lt;br&gt;&amp;nbsp; - websites / webapplicaties&lt;br&gt;- async&lt;br&gt;- underscore / lodash&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="30" width="270" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;b&gt;Unittesten&lt;/b&gt;&lt;br&gt;- Karma (testrunner) - Angular&lt;br&gt;- Jasmine (testframework + runner) - Angular&lt;br&gt;- Mocha (testrunner)&lt;br&gt;- Jest (testrunner + framework + mocking)&lt;br&gt;- Sinon (mocken)&lt;br&gt;- Chai (assertion library)&lt;br&gt;- Vitest&lt;br&gt;- Stryker" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="160" width="260" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;b&gt;End-to-end testen&lt;/b&gt;&lt;br&gt;- a.k.a. UI testen&lt;br&gt;- Selenium (oudstgediende)&lt;br&gt;- Playwright (MIcrosoft)&lt;br&gt;- Cypress&lt;br&gt;- TestCafe&lt;br&gt;- Webdriver I/O&lt;br&gt;- Nightwatch&lt;br&gt;- ..." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="320" width="260" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;b&gt;Third-party testtools&lt;/b&gt;&lt;br&gt;- BrowserStack&lt;br&gt;- Storybook&lt;br&gt;- Chromatic" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="465" width="150" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;b&gt;Module bundlers&lt;/b&gt;&lt;br&gt;- Parcel&lt;br&gt;- Vite (hip)&lt;br&gt;- webpack (krachtig maar niet hip)&lt;br&gt;- RollUp/RollDown&lt;br&gt;&lt;br&gt;&lt;b&gt;Build tools&lt;br&gt;&lt;/b&gt;- Grunt (configureer je build)&lt;br&gt;- Gulp (programmeer je build)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="500" width="200" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;b&gt;ORM/ODM/Query builder&lt;/b&gt;&lt;br&gt;- TypeORM&lt;br&gt;- Prisma&lt;br&gt;- Knex&lt;br&gt;-&amp;nbsp;Sequelize" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="280" width="160" height="95" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

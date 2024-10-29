@@ -50,5 +50,48 @@ Deze versies komen ook nog wel eens terug bij bijv. TypeScript's `tsconfig.json`
 - Safari/WebKit: JavaScriptCore
   - Ook door bun gebruikt
 
+## Paradigmas der webdevelopment
 
+**SPA: Single Page Application (2010-)**
+- 1 pagina hebt waar alles op gebeurt. geen continue refreshes.
+- data ophalen gebeurt op de achtergrond via AJAX => REST API
+  - Asynchronous JavaScript And JSON
+  - spinners net te dom.
+- dynamisch DOM
+- hip
+- techstacks: Angular Vue React Svelte Blazor ...
+  - Blazor C# => WebAssembly  7MB "hello world"
+- nadelen: wil nog wel eens trager zijn
+- voordelen/use case: hoog niveau van interactie
 
+**SSR: Server-side rendering**
+- de allereerste pagina waar de gebruiker op komt, die HTML wordt server-side gerenderd
+- terwijl de gebruiker geniet van een mooie pagina, op de achtergrond worden dan alle 
+  interactieve brokken opgestuurd
+  - hydration
+- complementair aan de SPA
+- techstack: Next.js (React)  Nuxt.js (Vue)  @angular/ssr (Angular) Blazor (ASP.NET Core)
+  Qwik (QwikCity)  Solid (SolidStart)  Svelte (SvelteKit)
+  ```html
+  <ul>
+    @for(var item of lijstje) {
+      <li>@item.Ding</li>
+    }
+  </ul>
+  ```
+
+**SSG: Static Site Generation**
+- wehkamp bol.com amazon  HET KC
+- catalogus product wikipedia
+- product.php?id=15423
+- buildproces catalogus  voor ieder product een HTML-pagina genereren
+  - product-haarborstel-roze-843834.html
+- techstack: Astro 11ty Hugo @angular/ssr Next.js
+
+**MPA: Multi Page Application**
+- niet hip
+- meer pagina's
+- pagina afzondelijk opgehaald/ingeladen
+- continue refreshes  klik op link => refresht
+- statische content  Wikipedia MDN
+- techstacks: PHP Geronimo JSF/JSP Google Play! Spring API/Thymeleaf Wicket ASP.NET Core
