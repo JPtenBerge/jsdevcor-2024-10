@@ -50,6 +50,16 @@ Deze versies komen ook nog wel eens terug bij bijv. TypeScript's `tsconfig.json`
 - Safari/WebKit: JavaScriptCore
   - Ook door bun gebruikt
 
+## Modulesystemen geschiedenis
+
+- Node.js - 2009 - CommonJS
+  - `const customer = require('./customer.js');`
+  - browserify
+- AMD
+  - require.js
+
+Nu: ES Modules met `import`/`export`
+
 ## Paradigmas der webdevelopment
 
 **SPA: Single Page Application (2010-)**
