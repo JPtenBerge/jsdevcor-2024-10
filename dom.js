@@ -44,17 +44,17 @@
 // };
 
 // 3. nieuwe manier, behoorlijk snel, vrij elegant, iets langer dan #2
-const addTosti = () => {
-    console.time();
-    let template = document.querySelector('#tosti-template').content;
-    let clone = template.cloneNode(true);
+const addTosti = (tosti) => {
+	console.time();
+	let template = document.querySelector('#tosti-template').content;
+	let clone = template.cloneNode(true);
 
-    clone.querySelector('.description').textContent = 'Oude kaas, pesto';
-    clone.querySelector('.prijs').textContent = '5,40';
-    clone.querySelector('.photo').setAttribute('src', 'https://www.chaupain.nl/wp-content/uploads/2018/12/Website-1240x500-zomerse-tosti-1.jpg');
+	clone.querySelector('.description').textContent = tosti.description;
+	clone.querySelector('.prijs').textContent = tosti.price;
+	clone.querySelector('.photo').setAttribute('src', tosti.photoUrl);
 
-    document.querySelector('#tostis tbody').appendChild(clone);
-    console.timeEnd();
+	document.querySelector('#tostis tbody').appendChild(clone);
+	console.timeEnd();
 };
 
 // leesbaarheid/onderhoudbaar/unittestbaarheid
@@ -64,3 +64,15 @@ const addTosti = () => {
 // 	event.stopPropagation();
 
 // });
+
+const getTostis = () => {
+	// deze loaders zijn net te dom.
+
+	document.querySelector('.loader').style.display = '';
+	fetch('http://localhost:1337/tosti')
+		.then((x) => x.json())
+		.then((tostis) => {
+			tostis.forEach((tosti) => addTosti(tosti));
+			document.querySelector('.loader').style.display = 'none';
+		});
+};
