@@ -105,3 +105,38 @@ Nu: ES Modules met `import`/`export`
 - continue refreshes  klik op link => refresht
 - statische content  Wikipedia MDN
 - techstacks: PHP Geronimo JSF/JSP Google Play! Spring API/Thymeleaf Wicket ASP.NET Core
+
+## DOM API libraries/frameworks
+
+- Angular
+- Vue
+- Svelte
+- React JSX/TSX
+- Solid
+- ...
+
+Waarom? Grotendeels om de DOM API makkelijker bruikbaar te maken middels databinding en change detection.
+
+```html
+<tr>
+	@for(tosti of tostis; track tosti.id) {
+		<td>{{tosti.description}}</td>
+	}
+</tr>
+```
+
+En vroeger waren libraries ook een browserabstractie:
+
+```js
+let btn = document.getElementById('btn');
+if (btn.addEventListener) {
+	btn.addEventListener('click', function() { ... });
+}
+else { // IE 6/7/8
+	btn.attachEvent('onclick', function() { ... });
+}
+
+// jQuery
+$('#btn').click(function() { });
+
+```
