@@ -19,6 +19,7 @@
 		<!-- <script src="scrippie1.js" type="module"></script>
     <script src="scrippie2.js" type="module"></script> -->
 		<script src="dom.js"></script>
+		<script src="serverside.js"></script>
 
 		<!-- <script src="jquery.js"></script>
     <script src="bootstrap.js"></script> -->
@@ -33,7 +34,11 @@
 
 		<h1>Soorten tosti&#039;s</h1>
 
-		<button onclick="addTosti();">Voeg tosti toe</button>
+        <form onsubmit="addTosti(); return false;">
+            <button>Voeg tosti toe</button>
+
+        </form>
+
 
 		<table id="tostis">
 			<thead>

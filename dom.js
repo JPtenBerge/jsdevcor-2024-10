@@ -58,3 +58,9 @@ const addTosti = () => {
 };
 
 // leesbaarheid/onderhoudbaar/unittestbaarheid
+
+// document.querySelector('form').addEventListener('submit', event => {
+// 	event.preventDefault();
+// 	event.stopPropagation();
+
+// });
